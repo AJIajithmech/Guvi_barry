@@ -2,11 +2,11 @@
 void main()
 {
 	int n,s=0;
-	scanf("%d",&n);
+	scanf("%i",&n);
 	while(n>0)
 	{
 		s++;
 		n=n/10;
 	}
-	printf("%d",s);
+	printf("%i",s);
 }
